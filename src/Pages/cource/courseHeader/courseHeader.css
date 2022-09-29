@@ -1,0 +1,39 @@
+.course{
+  background-color: #151515;
+  padding: 20px 0px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.course__header{
+  display: flex;
+  justify-content: space-between;
+}
+
+.course__list{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  align-items: center;
+}
+
+.course__link{
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.pro-logo{
+  width: 83px;
+  height: 15px;
+}
+

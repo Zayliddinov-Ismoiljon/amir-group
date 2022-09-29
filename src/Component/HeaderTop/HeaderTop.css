@@ -1,0 +1,27 @@
+.container{
+  width: 1400px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+nav{
+  background-color: #E8E8E8;
+}
+
+nav{
+  border-bottom: 2px solid white;
+}
+
+.navbar__link{
+  color: rgb(88, 87, 87);
+  font-size: 18px;
+}
+
+.header-bottom{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+

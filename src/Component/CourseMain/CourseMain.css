@@ -1,0 +1,166 @@
+.enroll-course{
+  width: 100%;
+  padding-top: 150px;
+  background-image: url(https://i.pinimg.com/originals/88/15/63/881563d6444b370fa4ceea0c3183bb4c.gif);
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+  height: 700px;
+  top: 0;
+  left: 0;
+}
+
+
+body{
+  font-family: 'Lato', sans-serif;
+}
+
+.enroll-course__list{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.enroll-course__item{
+  width: 317px;
+  height: 148px;
+  text-align: center;
+  padding: 40px 10px;
+  background-image: url(https://proweb.uz/img/webpro.a554d9ca.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 317px 148px;
+}
+
+.enroll-course__item:nth-child(2){
+  background-image: url(https://proweb.uz/img/internetm.1f3a98f7.webp);
+}
+
+.enroll-course__item:nth-child(3){
+  background-image: url(https://proweb.uz/img/prodesign.a84f5072.webp);
+}
+
+.enroll-course__item:nth-child(4){
+  background-image: url(https://proweb.uz/img/3ds.a73170cb.webp);
+}
+
+.enroll-course__item:nth-child(5){
+  background-image: url(https://proweb.uz/img/python.904f59fe.webp);
+}
+
+.enroll-course__item:nth-child(6){
+  background-image: url(https://proweb.uz/img/montaj.9c9db93e.webp);
+}
+
+.enroll-course__item:nth-child(7){
+  background-image: url(https://proweb.uz/img/unity.2bca6c0c.webp);
+}
+
+.enroll-course__item:nth-child(8){
+  background-image: url(https://proweb.uz/img/scratch.1332418b.webp);
+}
+
+.enroll-course__item:nth-child(9){
+  background-image: url(https://proweb.uz/img/ios.64f17040.webp);
+}
+
+.enroll-course__item:nth-child(10){
+  background-image: url(https://proweb.uz/img/computers.1a9936df.webp);
+}
+
+.enroll-course__item:nth-child(11){
+  background-image: url(https://proweb.uz/img/blender.e2500778.webp);
+}
+
+.enroll-course__item:nth-child(12){
+  background-image: url(https://proweb.uz/img/excel.db982e86.webp);
+}
+
+.enroll-course__item:hover{
+  cursor: pointer;
+}
+
+.enroll-course__item:hover .info{
+  display: block;
+  transition: all 0.6s;
+}
+
+.enroll-course__item > h3{
+  color: white;
+}
+
+.info{
+  display: none;
+  word-break: break-all;
+  width: 100%;
+}
+
+.info > p{
+  color: white;
+}
+
+.ant-tabs-nav-list{
+  margin-top: 50px;
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.kovorking{
+  width: 100%;
+  height: 500px;
+  background-image: url(https://proweb.uz/img/1.53c811e8.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.study-format{
+  padding: 50px 0px;
+}
+
+.study-format__title{
+  text-align: center;
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.study-format__list{
+  width: 100%;
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+}
+
+.free-lesson{
+  background-color: #151515;
+  padding: 50px 0px;
+  height: 700px;
+}
+
+.free-lesson__info{
+  width: 600px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.free-lesson__title{
+  background: radial-gradient(90% 300% at 50% 0,#fafafa 0,#f3d2aa 26.01%,#e4a27d 49.92%,#1a1a1a 70.79%);
+  font-size: 72px;
+  font-weight: 600;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.free-lesson__text{
+  color: white;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+}
+
