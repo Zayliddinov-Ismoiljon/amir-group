@@ -2,32 +2,32 @@ import Main from "../Component/Main/Main";
 import {FaHome, FaGoogle, FaWindows} from 'react-icons/fa'
 import Dashboard from "../Pages/dashboard";
 import Layout from "../Pages/Layout/Layout";
-// import Olimpiadalar from "../Pages/Olimpiadalar/Olimpiadalar"
+import Product from "../Component/Product/Product";
 
 
 export const route_data = [
   {
-    title: "Home",
+    title: "главное",
     path: "/",
     component: <Dashboard/>,
     icon: <FaHome/>,
   },
   {
-    title: "Layout",
+    title: "заказы",
     path: "/layout",
     component: <Layout/>,
-    icon: <FaHome/>,
+    icon: <FaWindows/>,
   },
   {
-    title: "Olimpiadalar",
-    path: "/olimpiadalar",
-    component: "",
+    title: "оформить заказ",
+    path: "/order",
+    component: <Main/>,
     icon: <FaGoogle/>,
   },
   {
-    title: "IT kurslar",
-    path: "/courses",
-    component: <Main/>,
-    icon: <FaWindows/>,
+    // title: "оформить заказ",
+    path: "/product/:id",
+    component: <Product/>,
+    // icon: <FaGoogle/>,
   },
 ]
